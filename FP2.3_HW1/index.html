@@ -5,5 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <label for="taskStatus">Filter By Status:</label>
+    <select id="taskStatus">
+      <option value="All">All</option>
+      <option value="todo">To-do</option>
+      <option value="inProgress">In-Progress</option>
+      <option value="completed">Completed</option>
+    </select>
+
+    <ul id="taskList"></ul>
+    <script src="script.js"></script>
+  </body>
 </html>
