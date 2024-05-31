@@ -5,5 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <label for="all">
+      <input type="radio" name="taskStatus" value="all" id="all" />
+      all
+    </label>
+    <label for="todo">
+      <input type="radio" name="taskStatus" value="todo" id="todo" />
+      todo
+    </label>
+    <label for="completed">
+      <input type="radio" name="taskStatus" value="completed" id="completed" />
+      completed
+    </label>
+    <label for="inProgress">
+      <input
+        type="radio"
+        name="taskStatus"
+        value="inProgress"
+        id="inProgress" />
+      inProgress
+    </label>
+
+    <ul id="taskList"></ul>
+    <script src="script.js"></script>
+  </body>
 </html>
